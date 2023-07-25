@@ -10,4 +10,7 @@ git config --global user.email
 1. Tạo một remote repository
 2. Tạo local repository
     Khởi tạo repository: git init
-    Kết nối remote repository với local repository: git remote add origin 'url remote repository'
+    Kết nối remote repository với local repo: git remote add origin 'url remote repo'
+3. Đẩy code lên remote repo
+    git add "tên file" hoặc git add .(chọn tất cả các file thay đổi)
+    git push (-u origin - khi lần đầu push lên một nhánh) "tên nhánh" 
